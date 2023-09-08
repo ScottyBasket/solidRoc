@@ -17,6 +17,11 @@
     --third-color: #86A69D;
 }
 
+a{
+    color:white;
+    text-decoration: none;
+}
+
 h1{
     font-size:7vh;
 }
@@ -374,7 +379,7 @@ button{
     #logos{
         float:left;
         width:50%;
-        margin: 1.25em 0;
+        margin: 1.5em 0;
     }
     
     .logo{
