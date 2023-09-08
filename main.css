@@ -17,6 +17,19 @@
     --third-color: #86A69D;
 }
 
+h1{
+    font-size:7vh;
+}
+
+h2{
+    font-size: 5vh;
+}
+
+p{
+    font-size: 2.5vh;
+    line-height: 25px;
+}
+
 body{
     background-color: var(--bg);
 }
@@ -161,7 +174,7 @@ footer{
 
 .logo{
     float:none;
-    margin: 0 2em; 
+    margin: 0 1em; 
     width:50px;
 }
 
@@ -326,6 +339,7 @@ button{
         justify-content: space-between;
         position:relative;
         margin: 1.5em auto;
+        margin-right:2em;
     }
 
     nav li {
