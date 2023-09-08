@@ -1,0 +1,91 @@
+#wrap{
+    background-image: url('_images/prayingHands.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100vw;
+    height:86vh;
+    margin-top:2vh;
+    overflow: auto;
+}
+
+.background{
+    background-color: var(--main-color);
+    width:80%;
+    margin:auto;
+    margin-bottom:2em;
+    opacity: .95;
+    border-radius:15px;
+}
+
+#title{
+    width:fit-content;
+    margin: 0 auto;
+    margin-top:8vh;
+    color:white;
+    padding:1em 0;
+    background-color: transparent;
+}
+
+.left{
+    width:33%;
+    padding:auto;
+    float:left;
+}
+
+.left img{
+    border-radius: 12px;
+    width:80%;
+    margin: 8% auto;
+    display: block;
+}
+
+.right{
+    color:white;
+    margin-left:33%;
+}
+
+.text{
+    padding: 2em;
+}
+
+.right p{
+    line-height: 2em;
+}
+
+#sermonHover:hover > .background{
+    opacity:1;
+}
+
+@media screen and (max-width: 800px){
+    #title{
+        margin-top:2em;
+    }
+    .left{
+        width:100%;
+        margin: 0 auto;
+
+    }
+
+    .left img{
+        width:80%;
+    }
+
+    .right{
+        width:100%;
+        margin:0;
+    }
+
+    .text{
+        width:95%;
+        margin:auto;
+        text-align: center;
+    }
+
+    #title{
+        margin-top:12vh;
+    }
+
+    #wrap{
+        margin:0;
+    }
+}
