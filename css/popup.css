@@ -1,0 +1,285 @@
+.popup{
+    display:none;
+    overflow:auto;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top:0;
+    left:0;
+    z-index: 5;
+    background: var(--main-color);
+    margin: 0em auto;
+    color:white;
+    text-align: center;
+    line-height: 4em;
+  }
+
+  .popup h1{
+    margin: .5em auto;
+  }
+
+    .text{
+        padding:2.5vw;
+        width:70%;
+        background-color: #062a40c5;
+        border-radius: 15px;
+        line-height:4em;
+        padding-top:30vh;
+    }
+
+    .churchs{
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: bottom;
+        width:100vw;
+    }
+
+    #freechurchText{
+        margin-top:20vh;
+        padding-top:2em;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+  #freechurch{
+    background-image: url('/_images/sharedSpace/freechurch.png') ;
+    margin-top:5em;
+    height:100vh;
+    width:100%;
+    content-visibility: scroll;
+  }
+
+  .right{
+    width:50%;
+    height: 100vh;
+    float:left;
+  }
+
+  .left{
+    width:50%;
+    float:left;
+    height:100vh;
+  }
+
+  #newLife{    
+    background-image: url('/_images/sharedSpace/newLife.png');
+    }
+
+    #lamp{
+        background-image: url('/_images/sharedSpace/lamp.png');
+        background-position: top;
+    }
+
+    #bethel{
+        background-image: url('/_images/sharedSpace/bethel.png');
+        background-position: top;
+    }
+
+    #sun{
+        background-image: url('/_images/sharedSpace/sunshine.png');
+        background-position: top;
+        margin-bottom:5vh;
+    }
+
+    hr{
+        background-color:var(--sec-color);
+        border:none;
+        margin: 5vh 10%;
+        width:80%;
+        height:3px
+    }
+
+    #ha{
+        background-image: url('/_images/sharedSpace/ha.png');
+        background-position: center;
+        width:20vw;
+        height:20vw;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+    #aa{
+        background-image: url('/_images/sharedSpace/aa.png');
+        background-position: center;
+        width:20vw;
+        height:20vw;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+    #support{
+        width:100vw;
+    }
+
+    .leftS{
+        width:50vw;
+        margin:0 auto;
+        float:left;
+        margin-bottom:6em;
+    }
+
+    .rightS{
+        width:50vw;
+        margin: 0 auto;
+        float:left;
+    }
+
+    .textS{
+        padding-top:4em;
+        margin-right:0;
+        margin-right:0;
+        width:45vw;
+    }
+
+    .x{
+        display:block;
+        position:fixed;
+        bottom:10px;
+        right:10px;
+        background-color: var(--sec-color);
+        float:right;
+        padding:15px;
+        border-radius:100% 50%; 
+        z-index: 7;
+    }
+
+    .x:hover{
+        cursor:pointer;
+        opacity: .8;
+    }
+
+    .flex-item:hover{
+        cursor:pointer;
+    }
+
+    #placeToMeetText{
+        width:80%;
+        margin: 15vh auto;
+    }
+
+    #classesText{
+        width:85%;
+        margin: 5vh auto;
+        line-height: 3em;
+    }
+
+    #classesText h3{
+        font-size: 2em;
+        margin-bottom:.5em;
+    }
+
+    #classesText h4{
+        font-size: 1.25em;
+    }
+
+    #classesText p{
+        font-size: 1em;
+    }
+
+    #aboutUsText{
+        width:85%;
+        margin: 2.5em auto;
+    }
+
+    #aboutUsText ol{
+        text-align: left;
+        line-height: 2em;
+        font-size: 1.25em;
+        margin:1em auto;
+        width:90%;
+    }
+
+    #prayerMinistriesText{
+        padding-top:2.5em;
+    }
+
+    #youngLife{
+        background-image: url(/_images/missions/lithuania.jpg);
+    }
+
+    #caring{
+        background-image: url(/_images/missions/caringChoices.jpg);
+    }
+
+    #northIraq{
+        background-image: url(/_images/missions/iraq.jpg);
+    }
+
+    #livingHope{
+        background-image: url(/_images/missions/livingHope.jpg);
+    }
+
+    .pictures{
+        width:20vw;
+        height:20vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        margin:1em auto;
+    }
+
+    .missions{
+        display:flex;
+        flex-wrap:wrap;
+        text-align: center;
+    }
+
+    .missionPic{
+        width: 50%;
+    }
+
+
+    @media screen and (max-width: 800px){
+        #freechurchText{
+            margin-top:6vh;
+            padding-top:2em;
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+        .right{
+            width:100%;
+        }
+
+        .left{
+            width:100%;
+        }
+
+        .churches{
+            width:90%;
+            margin: 0 5%;
+        }
+
+        .leftS{
+            width:100%;
+        }
+
+        .rightS{
+            width:100%;
+        }
+
+        .textS{
+            width:100%;
+        }
+
+        #support{
+            height: 100%;
+        }
+
+        .missionPic{
+            width:100%;
+            margin-bottom:5em;
+        }
+        .pictures{
+            width:80vw;
+            height:80vw;
+        }
+
+        .missions{
+            margin-bottom:5em;
+        }
+
+        #visionMissionText{
+            padding:2.5em 0;
+        }
+    }

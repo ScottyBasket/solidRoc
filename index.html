@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link type="text/css" rel="stylesheet" href="main.css" />
+    <link type="text/css" rel="stylesheet" href="css/popup.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Solid Rock Church</title>
   </head>
@@ -42,9 +43,8 @@
           nondenominational church under the covering of Mutual Faith Ministries
           and Network under be leadership of Jeff and Nancy Clark.We are a
           church of new beginnings. Although we are currently small in numbers,
-          we are large in passion fober sharing the life changing message of
-          Jesus Christ.We invite you to join us in this grassroots faith
-          journey!
+          we are large in passion for sharing the life changing message of Jesus
+          Christ. We invite you to join us in this grassroots faith journey!
         </p>
       </div>
     </div>
@@ -52,49 +52,349 @@
       <div class="thingsInnerText">
         <h2>Everything going on at Solid Rock</h2>
         <div class="flex-container">
-          <div class="flex-item">
+          <div class="flex-item" onclick="onLeadership()">
             <div class="innerText">
               <p>Leadership</p>
             </div>
           </div>
-          <div class="flex-item">
+          <div class="flex-item" onclick="onVisionMission()">
             <div class="innerText">
               <p>Vision + Mission</p>
             </div>
           </div>
-          <div class="flex-item">
+          <div class="flex-item" onclick="onPrayerMinistries()">
             <div class="innerText">
               <p>Prayer Ministries</p>
             </div>
           </div>
-          <div class="flex-item">
+          <div class="flex-item" onclick="onAboutUs()">
             <div class="innerText">
               <p>About Us</p>
             </div>
           </div>
-          <div class="flex-item">
+          <div class="flex-item" onclick="onClasses()">
             <div class="innerText">
               <p>Classes</p>
             </div>
           </div>
-          <div class="flex-item">
+          <div class="flex-item" onclick="onPlaceToMeet()">
             <div class="innerText">
               <p>Need a place to meet?</p>
             </div>
           </div>
-          <div class="flex-item">
+          <div class="flex-item" onclick="onSharedSpace()">
             <div class="innerText">
               <p>A Shared Space</p>
             </div>
           </div>
-          <div class="flex-item">
+
+          <a href="give.html" class="flex-item">
             <div class="innerText">
               <p>Give</p>
             </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!--Popup Section-->
+    <!--Popup Shared space-->
+
+    <div class="popup" id="sharedSpace">
+      <div class="x" onclick="off()">
+        <p>X</p>
+      </div>
+
+      <div id="text">
+        <h1>Other groups that meet here</h1>
+        <p>
+          We aren’t meant to do life alone. Find your own unique church family
+          here: four congregations worship here each Sunday! Brighton
+          Presbyterian is the proprietor of this beautiful property and is
+          blessed to share it with many Gospel-centered churches and ministries.
+          Although we may belong to different denominations, we are driven by a
+          common goal: to love and serve the Lord Jesus Christ in all we do, and
+          to love others.
+        </p>
+      </div>
+
+      <div class="churchs" id="freechurch">
+        <br />
+        <div class="text" id="freechurchText">
+          <h2>Freechurch</h2>
+          <h3>Sunday at 11am in the Sanctuary</h3>
+          <p>
+            Our vision is to Love God, Love Others, and Love Life. We live out
+            that vision through modern worship, a fun kids program, and huge
+            events! Join us each week to worship God and hear relevant messages
+            from Pastor Troy Bassett. We hope to see you there!
+          </p>
+        </div>
+      </div>
+
+      <div class="churchs">
+        <div class="right churchs" id="newLife"></div>
+        <div class="left text">
+          <h2>New Life Ethiopian Church</h2>
+          <p>
+            Sunday at 10am in the lower level (Access in the back behind the
+            Laundromat)
+          </p>
+        </div>
+      </div>
+
+      <div class="churchs">
+        <div class="left churchs" id="lamp"></div>
+        <div class="right text">
+          <h2>The Lamp Community Church</h2>
+          <h3>Sunday at 1pm in the lower blossom room</h3>
+          <p>
+            Founding Bishop Daniel Soto, his wife Joy, and the TLC family are a
+            Jesus-following, mission-leading, church-planting body of Christ,
+            and a serving, people-loving, Bible-preaching ministry. Learn more
+            about The Lamp Community Church on its Facebook page.
+          </p>
+        </div>
+      </div>
+
+      <div class="churchs">
+        <div class="right churchs" id="bethel"></div>
+        <div class="left text">
+          <h2>Bethel Express</h2>
+          <h3>Saturdays 10am - 3pm</h3>
+          <p>
+            BE is a ministry dedicated to affecting the lives of children
+            primarily between the ages of 6 and 12 years of age with the Good
+            news of Jesus Christ. Each Saturday, BE offers students a hot and
+            nutritious breakfast, fellowship, and a worship experience with
+            sound Biblical teaching.
+          </p>
+        </div>
+      </div>
+
+      <div class="churchs">
+        <div class="left churchs" id="sun"></div>
+        <div class="right text">
+          <h2>Sunshine Russian Cultural & Educational Center</h2>
+          <h3>Saturdays 10am September - May</h3>
+          <p>
+            Sunshine Rochester is a Russian language and culture school in
+            Rochester, New York, offering weekly classes for children during the
+            school year.
+          </p>
+        </div>
+      </div>
+
+      <br />
+      <hr />
+
+      <div id="text">
+        <h1>Support Groups</h1>
+        <p>
+          Recognizing the challenges of addiction and the great need in our
+          community, 1775 East Ave is committed to making meeting spaces
+          affordable for legitimate support groups, led by experienced leaders.
+        </p>
+      </div>
+      <div id="support">
+        <div class="leftS">
+          <div class="churchs" id="ha"></div>
+          <div class="text textS">
+            <h2>Heroin Anonymous</h2>
+            <p>
+              Heroin Anonymous is a non-profit fellowship of men and women who
+              have found a solution to heroin addiction. It meets in the lower
+              level on Wednesdays at 7 pm and has a private entrance. HA is a
+              fellowship of complete abstinence from all drugs and alcohol. We
+              are recovered heroin addicts who meet regularly to help each other
+              stay sober. The only requirement for membership is a desire to
+              stop suffering from heroin addiction. There are no dues or fees
+              for HA membership.
+            </p>
+          </div>
+        </div>
+        <div class="rightS">
+          <div class="churchs" id="aa"></div>
+          <div class="text textS">
+            <h2>Big Book AA</h2>
+            <p>
+              Big Book meets each Sunday evening at 6 pm in the lower level.
+              Private entrance is located at the back side behind the
+              laundromat. There is plenty of parking, and 1775 East Ave is on
+              bus line (stops are at Wegmans and Winton/East Ave.).
+            </p>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="popup" id="placeToMeet">
+      <div class="x" onclick="off()">
+        <p>X</p>
+      </div>
+      <div id="placeToMeetText">
+        <h2>Need a place to meet?</h2>
+        <hr />
+        <h3>A safe space. A loving place.</h3>
+        <p>
+          Contact SolidRocChurch@Gmail.com or use our contact page if your
+          church, ministry or group is in need of meeting or event space. Every
+          shared user pays a monthly or weekly fee (the specific fee depends on
+          the size of the group, the space(s) required, and the number of hours
+          needed).
+        </p>
+        <hr />
+      </div>
+    </div>
+
+    <div class="popup" id="classes">
+      <div class="x" onclick="off()">
+        <p>X</p>
+      </div>
+      <div id="classesText">
+        <h2>Classes</h2>
+        <h2>-Equipping People-</h2>
+        <hr />
+        <div id="classesSection">
+          <h3>Adult Life Group</h3>
+          <h4>When</h4>
+          <p>Sundays from 10:45am to 11:45am</p>
+          <h4>Where</h4>
+          <p>Historical Room</p>
+          <h4>What</h4>
+          <p>
+            All are welcome to join, even if you have not attended previous
+            sessions
+          </p>
+          <br />
+          <h3>Wednesday Night Bible Study</h3>
+          <p>Our Wednesday night bible study is on break for the summer</p>
+          <br />
+          <h3>Solid Rock Kids Class</h3>
+          <p>No Solid Rock Kids, we do have child care upon request</p>
+          <br />
+          <h3>Solid Rock Teens Class</h3>
+          <p>Our teens are currently on break for the summer</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup" id="aboutUs">
+      <div class="x" onclick="off()">
+        <p>X</p>
+      </div>
+      <div id="aboutUsText">
+        <h2>About Us</h2>
+        <p>
+          We are formerly Brighton Presbyterian Church. After being part of two
+          large denominations we’ve recently felt called out of the large
+          denominational church structure. We are now an independent
+          nondenominational church under the covering of Mutual Faith Ministries
+          and Network under be leadership of Jeff and Nancy Clark.We are a
+          church of new beginnings. Although we are currently small in numbers,
+          we are large in passion for sharing the life changing message of Jesus
+          Christ.We invite you to join us in this grassroots faith journey!
+        </p>
+        <hr />
+        <h2>What We Belive</h2>
+        <ol>
+          <li>
+            We Believe the Bible is inspired by God, infallible, and
+            authoritative.
+          </li>
+          <li>
+            We believe in one eternal God who exists as three separate persons;
+            the Father, Son, and Holy Spirit.
+          </li>
+          <li>
+            We believe Jesus Christ is the Son of God, born of a virgin, lived a
+            sinless life as He walked among men, demonstrated the authority and
+            power of God in works and speech, died on the cross, rose from the
+            dead on the third day. and is now seated at the right hand of God
+            having accomplished all that is necessary for man’s salvation.
+          </li>
+          <li>
+            We believe it is essential for man to repent of sin and by faith
+            receive the finished work of Christ by confessing Him as Lord with
+            his mouth and believing in his heart resulting in regeneration by
+            the Holy Spirit.
+          </li>
+          <li>
+            We believe the Holy Spirit is continuing the work He started at
+            Pentecost empowering believers to live a godly life and continue in
+            all the works of Jesus.
+          </li>
+          <li>
+            We believe in the imminent return of Jesus and that those who have
+            believed in Him will be resurrected to a heavenly dwelling in an
+            incorruptible body, and those who do not believe will join Satan and
+            his host in everlasting punishment.
+          </li>
+          <li>
+            We believe the true Church is composed of all born-again believers
+            in Christ, regardless of denominational affiliation.
+          </li>
+          <li>
+            We believe all born-again believers have been commissioned to share
+            the gospel of Jesus Christ to all the world.
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="popup" id="prayerMinistries">
+      <div class="x" onclick="off()">
+        <p>X</p>
+      </div>
+      <div id="prayerMinistriesText">
+        <h2>Prayer Ministries</h2>
+        <h3>Sunday Mornings</h3>
+        <p>After service with the prayer team in front of the sanctuary</p>
+        <h3>Prayer Meetings</h3>
+        <p>Wednesday at 10am in the historical room</p>
+        <h3>Wednesday Night Prayer</h3>
+        <p>TBD</p>
+        <h3>Lenten Prayer Nights</h3>
+        <p>Friday nights during Lent 6-8pm in our sanctuary</p>
+      </div>
+    </div>
+
+    <div class="popup" id="visionMission">
+      <div class="x" onclick="off()">
+        <p>X</p>
+      </div>
+      <div id="visionMissionText">
+        <h2>SRC Missions</h2>
+        <h2>- Serving the World -</h2>
+      </div>
+      <div class="missions">
+        <div class="missionPic">
+          <div id="youngLife" class="pictures"></div>
+          <h3>Young Life Lithuania/Belarus</h3>
+        </div>
+        <div class="missionPic">
+          <div id="caring" class="pictures"></div>
+          <h3>Caring Choices Rochester, NY</h3>
+        </div>
+        <div class="missionPic">
+          <div id="northIraq" class="pictures"></div>
+          <h3>Northern Iraq</h3>
+        </div>
+        <div class="missionPic">
+          <div id="livingHope" class="pictures"></div>
+          <h3>Living Hoper School West Bengal, India</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup" id="leadership">
+      <div class="x" onclick="off()">
+        <p>X</p>
+      </div>
+    </div>
+
+    <!--End Popup Section-->
+
     <footer>
       <div id="address">
         <a
@@ -132,6 +432,46 @@
       gtag("js", new Date());
 
       gtag("config", "G-28MGWJDE7Y");
+    </script>
+
+    <script>
+      function off() {
+        document.getElementById("sharedSpace").style.display = "none";
+        document.getElementById("placeToMeet").style.display = "none";
+        document.getElementById("classes").style.display = "none";
+        document.getElementById("aboutUs").style.display = "none";
+        document.getElementById("prayerMinistries").style.display = "none";
+        document.getElementById("visionMission").style.display = "none";
+        document.getElementById("leadership").style.display = "none";
+      }
+
+      function onSharedSpace() {
+        document.getElementById("sharedSpace").style.display = "block";
+      }
+
+      function onPlaceToMeet() {
+        document.getElementById("placeToMeet").style.display = "block";
+      }
+
+      function onClasses() {
+        document.getElementById("classes").style.display = "block";
+      }
+
+      function onAboutUs() {
+        document.getElementById("aboutUs").style.display = "block";
+      }
+
+      function onPrayerMinistries() {
+        document.getElementById("prayerMinistries").style.display = "block";
+      }
+
+      function onVisionMission() {
+        document.getElementById("visionMission").style.display = "block";
+      }
+
+      function onLeadership() {
+        document.getElementById("leadership").style.display = "block";
+      }
     </script>
   </body>
 </html>
