@@ -206,7 +206,7 @@ button:hover{
 }
 
 .hero-image {
-    height: 400px;
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -214,16 +214,27 @@ button:hover{
   }
 
   #hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("_images/sharedSpace/frontChurch.png");
+    background-image: url("_images/sharedSpace/frontChurch.png");
+  }
+
+  #hero-text-position{
+    width: 95vw;
+    display: block;
+    margin: 0 auto;
+    height:600px;
+    padding-top:20vh;
+    padding-left: 2vw;
   }
   
   .hero-text {
+    display:block;
+    position:static;
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
+    background-color: #062a4092;
+    padding:2em;
+    border-radius: 15px;
+    z-index: 300;
   }
 
   #text{
@@ -290,13 +301,17 @@ button:hover{
         height:700px;
     }
 
+    #hero-text-position{
+        width: 100%;
+        height: 700px;
+    }
+
     .hero-text{
-        width:fit-content;
-        top:85%;
-        left:17%;
-        transform:(0,0);
         text-align: left;
         font-size: 20px;;
+        margin: 25vh 0 0 0;
+        width: fit-content;
+        display: block;
     }
 
     .hero-text button{

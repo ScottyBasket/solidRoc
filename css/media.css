@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 #wrap{
     background-image: url('/_images/prayingHands.png');
     background-size: cover;
@@ -8,7 +12,17 @@
     overflow: auto;
 }
 
-.background{
+#title{
+    width:fit-content;
+    height:fit-content;
+    margin: 0 auto;
+    margin-top:8vh;
+    color:white;
+    padding:1em 0;
+    background-color: transparent;
+}
+
+#titleBackground{
     background-color: var(--main-color);
     width:80%;
     margin:auto;
@@ -17,68 +31,68 @@
     border-radius:15px;
 }
 
-#title{
-    width:fit-content;
-    margin: 0 auto;
-    margin-top:8vh;
-    color:white;
-    padding:1em 0;
-    background-color: transparent;
+
+.background{
+    background-color: var(--main-color);
+    width:80%;
+    min-height: 250px;
+    margin:auto;
+    margin-bottom:2em;
+    opacity: .95;
+    border-radius:15px;
+    display: flex;
+}
+
+.link{
+    width: 85%;
+    display:flex;
+    flex-wrap: wrap;
+    margin:0;
 }
 
 .left{
-    width:33%;
-    padding:auto;
-    float:left;
+    width:25%;
+    display: inherit;
 }
 
 .left img{
-    border-radius: 12px;
-    width:80%;
-    margin: 8% auto;
-    display: block;
+    height:40%;
+    margin: 7vh auto;
 }
 
 .right{
-    color:white;
-    margin-left:33%;
+    width:75%;
+    display: inherit;
 }
 
 .text{
-    padding: 2em;
+    width:100%;
+    margin: 7vh auto;
+    line-height: 3.5em;
 }
 
-.right p{
-    line-height: 2em;
+.text p{
+    line-height: 1.5em;
 }
 
-#sermonHover:hover > .background{
-    opacity:1;
+.farRight{
+    width:5%;
+    display: inherit;
 }
 
-@media screen and (max-width: 800px){
-    #title{
-        margin-top:2em;
-    }
-    .left{
-        width:100%;
-        margin: 0 auto;
+.farRight a{
+    width:fit-content;
+    margin:10vh auto;
+}
 
-    }
+.farRight img{
+    width: 100%;
+}
 
-    .left img{
-        width:80%;
-    }
 
-    .right{
-        width:100%;
-        margin:0;
-    }
-
-    .text{
-        width:95%;
-        margin:auto;
-        text-align: center;
+@media screen and (max-width: 1300px){
+    .background{
+        display: block;
     }
 
     #title{
@@ -86,6 +100,57 @@
     }
 
     #wrap{
+        display: block;
         margin:0;
+    }
+
+    .link{
+        display: block;
+        width:100%;
+        margin: 1em auto;
+        padding: 2em;
+    }
+
+    .left{
+        display:block;
+        width:100%;
+    }
+
+    .left img{
+        display: block;
+        width:75%;
+        height:auto;
+        margin: 1em auto;
+    }
+
+    .right{
+        display: block;
+        width:100%;
+        text-align: center;
+    }
+
+    .text{
+        display: block;
+        width:95%;
+        margin: 2em auto;
+    }
+
+    .farRight{
+        width:100%;
+        height:fit-content;
+        display: block;
+        margin: 1em auto;
+    }
+
+    .farRight a{
+        width:90%;
+        display: block;
+        margin: 2em auto;
+    }
+
+    .farRight img{
+        width:10%;
+        margin: 1em auto;
+        display: block;
     }
 }
