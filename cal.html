@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link type="text/css" rel="stylesheet" href="main.css" />
+    <link type="text/css" rel="stylesheet" href="css/cal.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solid Rock Church</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img src="_images/SolidRockLogo.png" id="logoTop"
+      /></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <nav>
+        <ul>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="planVisit.html"> Plan&nbspa&nbspVisit </a></li>
+          <li><a href="media.html"> Media</a></li>
+          <li><a href="contact.html" style="font-weight: bold"> Contact</a></li>
+          <!-- <li><a href="give.html"> Give</a></li> -->
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </header>
+    <div id="child">
+      <iframe
+        id="large"
+        src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&mode=MONTH&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=c29saWRyb2NjaHVyY2hAZ21haWwuY29t&color=%23039BE5"
+        style="border: solid 1px #777; border-radius: 15px; padding: 1em"
+        width="800"
+        height="600"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+
+      <iframe
+        id="small"
+        src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&mode=WEEK&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=c29saWRyb2NjaHVyY2hAZ21haWwuY29t&color=%23039BE5"
+        style="border: solid 1px #777"
+        width="800"
+        height="600"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+    </div>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-28MGWJDE7Y"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-28MGWJDE7Y");
+    </script>
+  </body>
+</html>
