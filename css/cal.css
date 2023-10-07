@@ -17,9 +17,10 @@
 }
 
 iframe{
-    margin-top:5%;
+    margin:5% auto 0 auto;
     width:90vw;
     height:80vh;
+    background-color: none;
 }
 
 #large{

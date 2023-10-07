@@ -162,6 +162,7 @@ footer{
     width:100%;
     background-color: var(--main-color);
     display:inline-block;
+    bottom:0;
 }
 
 #address{

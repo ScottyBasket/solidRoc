@@ -7,7 +7,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width:100vw;
-    height:86vh;
+    height:90vh;
     margin-top:2vh;
     overflow: auto;
 }
@@ -58,6 +58,7 @@
 .left img{
     height:40%;
     margin: 7vh auto;
+    border-radius: 10px;
 }
 
 .right{
