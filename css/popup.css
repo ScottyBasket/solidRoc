@@ -302,6 +302,10 @@
         background-image: url(/_images/people/judy.webp);
     }
 
+    #shaya{
+        background-image: url(/_images/people/missing.webp);
+    }
+
 
     @media screen and (max-width: 800px){
         #freechurchText{
