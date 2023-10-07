@@ -21,6 +21,8 @@ iframe{
     width:90vw;
     height:80vh;
     background-color: none;
+    border-radius:10px;
+    padding:1em;
 }
 
 #large{
