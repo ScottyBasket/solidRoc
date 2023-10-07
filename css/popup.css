@@ -42,7 +42,7 @@
     }
 
   #freechurch{
-    background-image: url('/_images/sharedSpace/freechurch.png') ;
+    background-image: url('/_images/sharedSpace/freechurch.webp') ;
     margin-top:5em;
     height:100vh;
     width:100%;
@@ -62,21 +62,21 @@
   }
 
   #newLife{    
-    background-image: url('/_images/sharedSpace/newLife.png');
+    background-image: url('/_images/sharedSpace/newLife.webp');
     }
 
     #lamp{
-        background-image: url('/_images/sharedSpace/lamp.png');
+        background-image: url('/_images/sharedSpace/lamp.webp');
         background-position: top;
     }
 
     #bethel{
-        background-image: url('/_images/sharedSpace/bethel.png');
+        background-image: url('/_images/sharedSpace/bethel.webp');
         background-position: top;
     }
 
     #sun{
-        background-image: url('/_images/sharedSpace/sunshine.png');
+        background-image: url('/_images/sharedSpace/sunshine.webp');
         background-position: top;
         margin-bottom:5vh;
     }
@@ -90,7 +90,7 @@
     }
 
     #ha{
-        background-image: url('/_images/sharedSpace/ha.png');
+        background-image: url('/_images/sharedSpace/ha.webp');
         background-position: center;
         width:20vw;
         height:20vw;
@@ -99,7 +99,7 @@
     }
 
     #aa{
-        background-image: url('/_images/sharedSpace/aa.png');
+        background-image: url('/_images/sharedSpace/aa.webp');
         background-position: center;
         width:20vw;
         height:20vw;
