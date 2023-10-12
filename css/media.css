@@ -7,9 +7,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     width:100vw;
-    height:90vh;
+    height:100vh;
     margin-top:2vh;
-    overflow: auto;
+    overflow: scroll;
 }
 
 #title{
