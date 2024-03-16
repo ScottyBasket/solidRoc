@@ -239,8 +239,8 @@
     }
 
     .person{
-        flex:250px;
-        height:700px;
+        flex:300px;
+        height:600px;
         margin: 5em 5em;
     }
 
@@ -257,6 +257,18 @@
         background-repeat: no-repeat;
         background-size: cover;
         margin: 2em auto;
+    }
+    @media screen and (max-width: 800px){
+        .peoplePictures{
+            display: block;
+            width:80%;
+            min-width: 300px;
+            margin: 0 auto;
+        }
+        .person{
+            height:500px;
+            margin: 5em auto;
+        }
     }
 
     #pastor{
