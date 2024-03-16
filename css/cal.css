@@ -35,11 +35,18 @@ iframe{
 
 @media screen and (max-width: 800px){
     iframe{
-        margin-top:10%;
+        width:90vw;
+        height:75vh;
+        background-color: none;
+        border-radius:10px;
+        padding:1em;
     }
 
     #small{
         display:block;
+        width:fit-content;
+        margin:0 5vw 0 -5vw;
+        margin-top:10%;
     }
 
     #large{
