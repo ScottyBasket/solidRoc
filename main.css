@@ -349,9 +349,13 @@ button:hover{
     .hero-text{
         text-align: left;
         font-size: 20px;;
-        margin: 25vh 0 0 0;
+        margin: 7% 0 0 0;
         width: fit-content;
         display: block;
+    }
+
+    button:hover{
+        cursor: pointer;
     }
 
     .hero-text button{
