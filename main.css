@@ -158,6 +158,39 @@ span {
     width:50%;
 }
 
+#leadership{
+    background-image: url('_images/home/leadership.jpeg');
+
+}
+
+#vision{
+    background-image: url('_images/home/vision:mission.jpg');
+}
+
+#prayer{
+    background-image: url('_images/home/prayer\ ministries.jpg');
+}
+
+#about{
+    background-image: url('_images/home/about.webp');
+}
+
+#classes{
+    background-image: url('_images/home/classes.jpg');
+}
+
+#place{
+    background-image: url('_images/home/place-to-meet.jpg');
+}
+
+#shared{
+    background-image: url('_images/home/shared-space.jpg');
+}
+
+#class{
+    background-image: url('_images/home/calendar.jpg');
+}
+
 footer{
     width:100%;
     background-color: var(--main-color);
@@ -249,8 +282,9 @@ button:hover{
   }
 
   #thingsGoingOn{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("_images/littleGirlPraying.webp");
+    background-color: #062A40;
     height:fit-content;
+    border-bottom:1px solid white;
   }
 
   .thingsInnerText{
@@ -277,8 +311,13 @@ button:hover{
     width:275px;
     height:275px;
     margin:.5em auto;
-    color:var(--sec-color);
+    color:white;
+    text-shadow: #062A40;
     border-radius: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:fit-content;
+    background-size:cover;
   }
 
   .innerText{
