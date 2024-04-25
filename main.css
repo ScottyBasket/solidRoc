@@ -458,4 +458,26 @@ button:hover{
         width:auto;
         margin:0;
     }
+    #give{
+        background-color: #C11C14;
+        padding: .25em 1.5em;
+        border-radius:10px;
+        width:10%;
+        margin: 0em auto .5em auto;
+    }
+}
+
+#give{
+    margin-top:-.75em;
+    margin-left:-.75em
+    
+}
+
+#give>a{
+    margin-left:-1em;
+}
+
+
+section{
+    margin:10em;
 }
