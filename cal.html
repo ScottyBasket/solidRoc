@@ -37,33 +37,50 @@
     <link rel="manifest" href="favicon/site.webmanifest" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
+
+    <style>
+      .x {
+        display: block;
+        position: fixed;
+        background-color: var(--sec-color);
+        float: right;
+        padding: 15px;
+        z-index: 7;
+        top: 10px;
+        bottom: 0;
+        right: 10px;
+        border-radius: 85%;
+        height: 50px;
+        color: white;
+      }
+
+      .x:hover {
+        cursor: pointer;
+        opacity: 0.8;
+      }
+
+      #child {
+        background-color: #062a40;
+      }
+
+      body {
+        background-color: #062a40;
+      }
+
+      #small {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 1em;
+        height: 90vh;
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <a href="/index.html" aria-label="Main page"
-        ><img
-          src="_images/SolidRockLogo.png"
-          id="logoTop"
-          alt="solid rock logo"
-      /></a>
-      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-      <nav>
-        <ul>
-          <li><a href="index.html" alt="home page"> Home </a></li>
-          <li>
-            <a href="planVisit.html" alt="plan a visit page">
-              Plan&nbspa&nbspVisit
-            </a>
-          </li>
-          <li><a href="media.html" alt="Media Page"> Media</a></li>
-          <li><a href="contact.html" alt="contact page"> Contact</a></li>
-          <!-- <li><a href="give.html" alt="give page" style="font-weight: bold"> Give</a></li> -->
-        </ul>
-      </nav>
-      <label for="nav-toggle" class="nav-toggle-label">
-        <span></span>
-      </label>
-    </header>
+    <a href="http://www.solidrocchurch.org">
+      <div class="x">
+        <p>X</p>
+      </div>
+    </a>
     <div id="child">
       <iframe
         title="large version of the calendar"

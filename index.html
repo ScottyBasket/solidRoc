@@ -39,7 +39,7 @@
     <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
-    <header>
+    <header id="header">
       <img
         src="_images/SolidRockLogo.webp"
         id="logoTop"
@@ -588,34 +588,53 @@
         document.getElementById("prayerMinistries").style.display = "none";
         document.getElementById("visionMission").style.display = "none";
         document.getElementById("leadership").style.display = "none";
+
+        document.getElementById("header").style.display = "block";
+        document.getElementById("hero").style.display = "block";
+        document.getElementById("whoWeAre").style.display = "block";
+        document.getElementById("thingsGoingOn").style.display = "block";
+      }
+
+      function onAll() {
+        document.getElementById("header").style.display = "none";
+        document.getElementById("hero").style.display = "none";
+        document.getElementById("whoWeAre").style.display = "none";
+        document.getElementById("thingsGoingOn").style.display = "none";
       }
 
       function onSharedSpace() {
         document.getElementById("sharedSpace").style.display = "block";
+        onAll();
       }
 
       function onPlaceToMeet() {
         document.getElementById("placeToMeet").style.display = "block";
+        onAll();
       }
 
       function onClasses() {
         document.getElementById("classes").style.display = "block";
+        onAll();
       }
 
       function onAboutUs() {
         document.getElementById("aboutUs").style.display = "block";
+        onAll();
       }
 
       function onPrayerMinistries() {
         document.getElementById("prayerMinistries").style.display = "block";
+        onAll();
       }
 
       function onVisionMission() {
         document.getElementById("visionMission").style.display = "block";
+        onAll();
       }
 
       function onLeadership() {
         document.getElementById("leadership").style.display = "block";
+        onAll();
       }
     </script>
   </body>
