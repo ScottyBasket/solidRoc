@@ -75,6 +75,11 @@
         background-position: top;
     }
 
+    #reuben{
+        background-image: url('/_images/sharedSpace/reuben.webp');
+        background-position: top;
+    }
+
     #sun{
         background-image: url('/_images/sharedSpace/sunshine.webp');
         background-position: top;
@@ -120,7 +125,7 @@
 
     .rightS{
         width:50vw;
-        margin: 0 auto;
+        margin: 2em auto;
         float:left;
     }
 
