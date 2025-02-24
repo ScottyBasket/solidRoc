@@ -245,8 +245,11 @@
 
     .person{
         flex:300px;
+        max-width: 500px;
+        min-width: 300px;
         height:600px;
-        margin: 5em 5em;
+        margin: 5em;
+        margin-bottom:12em;
     }
 
     .person h3{
@@ -273,6 +276,7 @@
         .person{
             height:500px;
             margin: 5em auto;
+            margin-bottom:25em;
         }
     }
 
