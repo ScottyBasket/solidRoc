@@ -61,6 +61,13 @@
     border-radius: 10px;
 }
 
+.left iframe{
+    height:auto;
+    width:80%;
+    margin: 7vh auto;
+    border-radius: 10px;
+}
+
 .right{
     width:75%;
     display: inherit;
@@ -126,6 +133,13 @@ audio{
         display: block;
         width:75%;
         height:auto;
+        margin: 1em auto;
+    }
+
+    .left iframe{
+        display: block;
+        width:auto;
+        height:20vh;
         margin: 1em auto;
     }
 
